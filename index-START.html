@@ -177,7 +177,7 @@
 
     function fixNav() {
       if (window.scrollY >= topOfNav) {
-        document.body.style.paddingTop = nav.offsetHeight + 'px';
+        document.body.style.paddingTop = nav.offsetHeight + 'px'; // take care of extra space
         document.body.classList.add('fixed-nav');
 
 
